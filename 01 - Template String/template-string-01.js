@@ -1,3 +1,3 @@
 const name = 'Mateus';
 
-console.log(`Meu nome é ${name}`);
+console.log(`Meu name is ${name}`);

@@ -1,37 +1,37 @@
-class Pessoa {
-	constructor(nome, idade){
-		this._nome = nome;
-		this._idade = idade;
+class Person {
+	constructor(name, age){
+		this._name = name;
+		this._age = age;
 	}
 
-	get nome(){
-		return this._nome;
+	get name(){
+		return this._name;
 	}
 
-	set nome(nome){
-		this._nome = nome;
+	set name(name){
+		this._name = name;
 	}
 
-	get idade(){
-		return this._idade;
+	get age(){
+		return this._age;
 	}
 
-	set idade(idade){
-		this._idade = idade;
+	set age(age){
+		this._age = age;
 	}
 
-	fala(mensagem){
-		console.log(`${this._nome} diz: ${mensagem}`);
+	speak(msg){
+		console.log(`${this._name} says: ${msg}`);
 	}
 }
 
 
-let mateus = new Pessoa('Mateus', '22');
-mateus.fala('E ae!');
-console.log(`Propriedade nome = ${mateus.nome}`);
-console.log(`Propriedade idade = ${mateus.idade}`);
-console.log(`Alterando propriedades....`)
-mateus.nome = 'mAtEus';
-mateus.idade = 29;
-console.log(`Propriedade nome = ${mateus.nome}`);
-console.log(`Propriedade idade = ${mateus.idade}`);
+let mateus = new Person('Mateus', '22');
+mateus.speak('Hello!');
+console.log(`Name Propertie = ${mateus.name}`);
+console.log(`Age Propertie = ${mateus.age}`);
+console.log(`Changing properties..`)
+mateus.name = 'mAtEus';
+mateus.age = 29;
+console.log(`Name Propertie = ${mateus.name}`);
+console.log(`Age Propertie = ${mateus.age}`);
