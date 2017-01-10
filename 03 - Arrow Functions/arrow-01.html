@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Arrow Functions 01</title>
+	<link rel="stylesheet" href="../all.css">
+</head>
+<body>
+	
+	<button id="arrow-function">This on Arrow Functions</button>
+	<button id="function">This on Normal Function</button>
+
+	<script>		
+		const $ = document.querySelector.bind(document);
+
+		$('#arrow-function').addEventListener('click', (event) => {
+			alert(`This = ${this}`);
+		});
+
+		$('#function').addEventListener('click', function(event){
+			alert(`This = ${this}`);
+		});
+	</script>
+</body>
+</html>
