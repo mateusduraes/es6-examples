@@ -1,0 +1,22 @@
+{
+  "name": "es6-examples",
+  "version": "1.0.0",
+  "description": "A repository with es6 examples",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mateusduraes/es6-examples.git"
+  },
+  "keywords": [
+    "es6examples"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mateusduraes/es6-examples/issues"
+  },
+  "homepage": "https://github.com/mateusduraes/es6-examples#readme"
+}
